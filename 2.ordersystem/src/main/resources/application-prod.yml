@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    # 아래의 ${DB_HOST}, ${DB_PW}는 k8s의 secret에 저장된 환경변수
+    url: jdbc:mariadb://${DB_HOST}:3306/ordersystem
+    username: admin
+    password: ${DB_PW}
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    show_sql: false
+    hibernate:
+      ddl-auto: update
+
+
+  redis:
+    host: fojf-redis-service
+    port: 6379
+
+  config:
+    activate:
+      on-profile: prod
+
+jwt:
+  expirationAt: 1000
+  secretKeyAt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  expirationRt: 10000
+  secretKeyRt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  adminEmail: admin@naver.com
+  adminPassword: 12345678a
+
+cloud:
+  aws:
+    credentials:
+      access-key: XX
+      secret-key: YY
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: xx
+server:
+  port: 8080
+

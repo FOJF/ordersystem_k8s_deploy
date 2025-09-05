@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: fojf-nginx-replicaset
+  namespace: fojf-namespace
+spec:
+  replicas: 2
+  # 아래의 label은 replica set이 관리해야할 pod를 선택하는데 사용
+  selector:
+    matchLabels:
+      app: fojf-nginx
+  template:
+    metadata:
+      # labels는 service의 selector.app과 일치해야 함
+      labels:
+        app: fojf-nginx
+    spec:
+      containers:
+        - name: fojf-nginx
+          image: nginx
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  # 클러스터내에서 service명은 url로 사용되므로 유일해야 함 ex)http://fojf-service
+  name: fojf-nginx-service
+  namespace: fojf-namespace
+spec:
+  type: ClusterIP
+  ports:
+    # port: service가 노출하는 포트, targetPort: pod의 컨테이너가 리스닝하는 포트
+    - port: 80
+      targetPort: 80
+  selector:
+    app: fojf-nginx

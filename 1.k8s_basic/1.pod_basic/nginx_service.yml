@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+# 클러스터내에서 service명은 url로 사용되므로 유일해야 함 ex)http://fojf-service
+  name: fojf-service
+  namespace: fojf-namespace
+spec:
+  ports:
+  # port: service가 노출하는 포트, targetPort: pod의 컨테이너가 리스닝하는 포트
+  - port: 80
+    targetPort: 80
+  selector:
+    app: fojf-nginx
+  

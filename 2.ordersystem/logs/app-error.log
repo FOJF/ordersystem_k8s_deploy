@@ -1,0 +1,40 @@
+2025-08-225 10:44 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:44:07Z, a difference of 4461810 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:44 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:44:07Z, a difference of 4461818 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:07Z, a difference of 4521857 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:07Z, a difference of 4521861 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:17Z, a difference of 4531406 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:17Z, a difference of 4531410 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:46 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:46:06Z, a difference of 4580474 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:46 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:46:06Z, a difference of 4580483 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:48 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:48:30Z, a difference of 4724841 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:48 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:48:30Z, a difference of 4724843 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:49 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:49:35Z, a difference of 4789468 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:49 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:49:35Z, a difference of 4789472 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:50 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:50:03Z, a difference of 4817443 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:50 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:50:03Z, a difference of 4817446 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:51 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:51:30Z, a difference of 4904615 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:51 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:51:30Z, a difference of 4904622 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:52 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:52:43Z, a difference of 4977355 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:52 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:52:43Z, a difference of 4977368 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:15Z, a difference of 5129643 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:15Z, a difference of 5129644 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:38Z, a difference of 5152379 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:38Z, a difference of 5152383 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:56 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:56:10Z, a difference of 5184305 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:56 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:56:10Z, a difference of 5184309 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:41Z, a difference of 6235309 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:41Z, a difference of 6235313 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:50Z, a difference of 6244078 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:50Z, a difference of 6244082 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:15:11Z, a difference of 6325200 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:15:11Z, a difference of 6325201 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:16:40Z, a difference of 6414996 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:16:40Z, a difference of 6414998 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:24 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 11:24 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
