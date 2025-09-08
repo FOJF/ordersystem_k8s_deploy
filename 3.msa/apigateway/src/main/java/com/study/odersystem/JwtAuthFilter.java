@@ -26,7 +26,7 @@ public class JwtAuthFilter implements GlobalFilter {
             "/member/doLogin",
             "/member/refresh-at",
             "/product/list",
-            "**/health"
+            "/health"
     );
 
     private static final List<String> ALLOWED_PATHS_ADMIN = List.of(
