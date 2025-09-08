@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  config:
+    activate:
+      on-profile: prod
+      
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+           allowedOrigins:
+            #  - 'http://localhost:3000'
+            - 'https://www.fojf.shop'
+            - 'https://www2.fojf.shop'
+           allowedMethods: '*'
+           allowedHeaders: '*'
+           allowedCredentials: true
+
+
+      routes:
+        - id: member-service
+          predicates:
+            - Path=/member-service/**
+          filters:
+            # 첫번째 접두어를 제거한 후에 member-service 서버로 http 요청을 전달
+            - StripPrefix=1
+
+          # eureka에 등록된 member-service라는 이름으로 http요청 전달
+          uri: http://fojf-member-service
+
+        - id: ordering-service
+          predicates:
+            - Path=/ordering-service/**
+          filters:
+            # 첫번째 접두어를 제거한 후에 member-service 서버로 http 요청을 전달
+            - StripPrefix=1
+
+          # eureka에 등록된 member-service라는 이름으로 http요청 전달
+          uri: http://fojf-ordering-service
+
+        - id: product-service
+          predicates:
+            - Path=/product-service/**
+          filters:
+            # 첫번째 접두어를 제거한 후에 member-service 서버로 http 요청을 전달
+            - StripPrefix=1
+
+          # eureka에 등록된 member-service라는 이름으로 http요청 전달
+          uri: http://fojf-product-service
+
+jwt:
+  expirationAt: 1000
+  secretKeyAt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  expirationRt: 10000
+  secretKeyRt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  adminEmail: admin
+  adminPassword: 12345678
+
+eureka:
+  client:
+    enabled: false

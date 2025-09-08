@@ -1,0 +1,132 @@
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1481)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1369)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:695)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:650)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:39 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:40 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:40 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:42 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:42 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:42 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 09:42 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:14 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:31 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:32 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 10:34 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:34 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:34 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:34 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:38 c.s.o.common.auth.JwtTokenFilter-JWT strings must contain exactly 2 period characters. Found: 0
+2025-08-223 10:38 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 10:38 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 10:38 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-02T00:11:55Z. Current time: 2025-08-11T02:13:59Z, a difference of 784924066 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-02T00:11:55Z. Current time: 2025-08-11T02:13:59Z, a difference of 784924071 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-02T00:11:55Z. Current time: 2025-08-11T02:15:52Z, a difference of 785037144 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-02T00:11:55Z. Current time: 2025-08-11T02:15:52Z, a difference of 785037148 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:33 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:33 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:34 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:42Z. Current time: 2025-08-11T03:34:56Z, a difference of 14690 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:34 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 12:34 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:42Z. Current time: 2025-08-11T03:34:56Z, a difference of 14713 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:34 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:42Z. Current time: 2025-08-11T03:34:56Z, a difference of 14714 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:35 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:35 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:36 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:17Z. Current time: 2025-08-11T03:36:48Z, a difference of 31252 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:36 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 12:36 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:17Z. Current time: 2025-08-11T03:36:48Z, a difference of 31292 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:36 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:17Z. Current time: 2025-08-11T03:36:48Z, a difference of 31295 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:38 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:38 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:39 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:39:10Z. Current time: 2025-08-11T03:39:14Z, a difference of 4154 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:39 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 12:39 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:39:10Z. Current time: 2025-08-11T03:39:14Z, a difference of 4233 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:39 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:39:10Z. Current time: 2025-08-11T03:39:14Z, a difference of 4236 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:41 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:40:14Z. Current time: 2025-08-11T03:41:00Z, a difference of 46987 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:41 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 12:41 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:40:14Z. Current time: 2025-08-11T03:41:01Z, a difference of 47045 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:41 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:40:14Z. Current time: 2025-08-11T03:41:01Z, a difference of 47050 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 12:41 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 14:01 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:42:15Z. Current time: 2025-08-11T05:01:51Z, a difference of 4776702 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:01 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 14:01 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:42:15Z. Current time: 2025-08-11T05:01:51Z, a difference of 4776732 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:01 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:42:15Z. Current time: 2025-08-11T05:01:51Z, a difference of 4776733 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:02 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:02:51Z. Current time: 2025-08-11T05:02:52Z, a difference of 1442 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:02 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 14:02 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:02:51Z. Current time: 2025-08-11T05:02:52Z, a difference of 1507 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:02 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:02:51Z. Current time: 2025-08-11T05:02:52Z, a difference of 1510 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:03:52Z. Current time: 2025-08-11T05:16:21Z, a difference of 749416 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-223 14:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:03:52Z. Current time: 2025-08-11T05:16:21Z, a difference of 749442 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T05:03:52Z. Current time: 2025-08-11T05:16:21Z, a difference of 749443 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:18 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:22 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:22 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:23 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 15:23 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:33 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:33 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:48 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:48 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:49 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:49 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:50 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-223 16:50 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null

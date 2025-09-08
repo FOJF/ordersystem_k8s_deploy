@@ -1,0 +1,25 @@
+package com.study.odersystem.ordering.dto;
+
+import com.study.odersystem.ordering.domain.OrderDetail;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class OrderDetailSpecificResDto {
+    private Long detailId;
+    private String productName;
+    private Integer productCount;
+
+    public static OrderDetailSpecificResDto fromEntity(OrderDetail orderDetail) {
+        return OrderDetailSpecificResDto.builder()
+                .detailId(orderDetail.getId())
+                .productName(orderDetail.getProductName())
+                .productCount(orderDetail.getQuantity())
+                .build();
+    }
+}

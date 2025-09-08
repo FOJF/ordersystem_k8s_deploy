@@ -1,0 +1,468 @@
+2025-08-225 09:19 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-225 09:19 c.s.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 5867 (/Users/jjw/Desktop/SW CAMP/odersystem/build/classes/java/main started by jjw in /Users/jjw/Desktop/SW CAMP/odersystem)
+2025-08-225 09:19 c.s.o.OrdersystemApplication-The following 1 profile is active: "local"
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.study.odersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.study.odersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.study.odersystem.product.repository.ProductImageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.study.odersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-225 09:19 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-08-225 09:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-225 09:19 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-225 09:19 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-225 09:19 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-225 09:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-225 09:19 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 969 ms
+2025-08-225 09:19 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-225 09:19 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-225 09:19 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-225 09:19 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-225 09:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-225 09:19 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@639948a2
+2025-08-225 09:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-225 09:19 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-225 09:19 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-225 09:19 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-225 09:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-225 09:19 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-225 09:19 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 0eb90222-0e2d-4889-aa18-cd5e3ea4aea3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-225 09:19 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-225 09:19 o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry-One of the patterns in [/product/**, /member/create, /member/doLogin, /member/refresh-at, /swagger-ui/**, /v3/api-docs/**, /swagger-resources/**, /webjars/**, swagger-ui.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-225 09:19 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-225 09:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-225 09:19 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-225 09:19 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#16c3e494:0/SimpleConnection@10357889 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56455]
+2025-08-225 09:19 c.s.o.OrdersystemApplication-Started OrdersystemApplication in 3.978 seconds (process running for 4.313)
+2025-08-225 09:25 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-225 09:25 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-225 09:25 o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2025-08-225 10:44 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:44:07Z, a difference of 4461810 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:44 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:44:07Z, a difference of 4461818 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:44 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:44 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:44 o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier-Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:07Z, a difference of 4521857 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:07Z, a difference of 4521861 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:45 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:17Z, a difference of 4531406 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:45:17Z, a difference of 4531410 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:45 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:45 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:46 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:46:06Z, a difference of 4580474 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:46 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:46:06Z, a difference of 4580483 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:46 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:46 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:48 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:48:30Z, a difference of 4724841 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:48 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:48:30Z, a difference of 4724843 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:48 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:48 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:49 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:49:35Z, a difference of 4789468 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:49 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:49:35Z, a difference of 4789472 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:49 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:49 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:50 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:50:03Z, a difference of 4817443 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:50 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:50:03Z, a difference of 4817446 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:50 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:50 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:51 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:51:30Z, a difference of 4904615 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:51 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:51:30Z, a difference of 4904622 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:51 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:51 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:52 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:52:43Z, a difference of 4977355 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:52 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:52:43Z, a difference of 4977368 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:52 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:52 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:15Z, a difference of 5129643 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:15Z, a difference of 5129644 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:55 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:38Z, a difference of 5152379 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:55:38Z, a difference of 5152383 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:55 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:55 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 10:56 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:56:10Z, a difference of 5184305 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:56 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T01:56:10Z, a difference of 5184309 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 10:56 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 10:56 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:41Z, a difference of 6235309 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:41Z, a difference of 6235313 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:13 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:50Z, a difference of 6244078 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:13:50Z, a difference of 6244082 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:13 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:13 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:15:11Z, a difference of 6325200 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:15 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:15:11Z, a difference of 6325201 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:15 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:15 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:16:40Z, a difference of 6414996 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:16 c.s.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T00:29:46Z. Current time: 2025-08-13T02:16:40Z, a difference of 6414998 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 11:16 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:16 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:24 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 11:24 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 11:28 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:28 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:29 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:29 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:29 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:29 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 11:29 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 11:29 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:02 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:02 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:04 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:04 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:08 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:18 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:20 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:20 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:31 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:31 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:33 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:33 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:33 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:33 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:36 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:36 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:36 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:36 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:36 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:36 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:45 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:45 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:47 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:47 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:47 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:47 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:47 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:47 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:47 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:47 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:48 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:48 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 12:49 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 12:49 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 13:56 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m49s263ms).
+2025-08-225 14:00 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m36s102ms).
+2025-08-225 14:02 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:02 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:06 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:07 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:07 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:12 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:12 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:12 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:12 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:14 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:14 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:15 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:15 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:15 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:15 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:20 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:20 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:20 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 14:20 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:20 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:20 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:20 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:20 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:22 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:22 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:22 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:22 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:24 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:24 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:25 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:25 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:25 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 14:25 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:25 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 14:25 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.c.a.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:31 c.s.o.common.auth.JwtTokenFilter-Cannot invoke "String.substring(int)" because "bearerToken" is null
+2025-08-225 14:32 o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver-Failure in @ExceptionHandler com.study.odersystem.common.CommonExceptionHandler#exception(Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:291)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:263)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:471)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:73)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:182)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1360)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1161)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.study.odersystem.common.auth.JwtTokenFilter.doFilter(JwtTokenFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.study.odersystem.common.auth.JwtTokenFilter.doFilter(JwtTokenFilter.java:50)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-08-225 14:32 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 14:32 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:32 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:32 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:50 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 14:50 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:50 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 14:50 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:51 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 14:51 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 14:51 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 14:51 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:03 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m17s390ms).
+2025-08-225 15:03 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:03 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:03 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:05 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:05 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:06 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:06 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:08 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:08 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:09 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:09 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:11 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:11 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:12 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:12 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:12 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:12 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:12 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:12 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:13 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:13 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:13 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:13 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:13 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:13 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:18 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:18 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 0, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 3, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 1, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:19 c.s.o.p.controller.ProductController-Page request [number: 2, size 7, sort: UNSORTED]
+2025-08-225 15:19 c.s.o.p.controller.ProductController-ProductSearchDto(category=null, productName=null)
+2025-08-225 15:28 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-225 15:28 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-225 15:28 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete

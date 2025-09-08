@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://${DB_HOST}:3306/ordermsa
+    username: admin
+    password: ${DB_PW}
+    hikari: 
+      maximum-pool-size: 1
+  config:
+    activate:
+      on-profile: prod
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    show_sql: true
+    hibernate:
+      ddl-auto: update
+
+  data:
+    redis:
+      host: fojf-redis-service
+      port: 6379
+  application:
+    name: member-service
+
+jwt:
+  expirationAt: 1000
+  secretKeyAt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  expirationRt: 10000
+  secretKeyRt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  adminEmail: admin@naver.com
+  adminPassword: 12345678
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    enabled: false

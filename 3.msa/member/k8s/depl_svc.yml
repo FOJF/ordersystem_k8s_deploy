@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fojf-ordersystem-deployment
+  name: fojf-member-deployment
   namespace: fojf-namespace
 spec:
   replicas: 1
   # 아래의 label은 replicaset이 관리해야 할 파드를 결정하는데 사용
   selector:
     matchLabels:
-      app: fojf-ordersystem
+      app: fojf-member
   template:
     metadata:
       # 아래의 labels는 service의 selector.app과 일치해야함
       labels:
-        app: fojf-ordersystem
+        app: fojf-member
     spec:
       containers:
-      - name: fojf-ordersystem
-        image: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com/fojf-namespace/ordersystem:latest
+      - name: fojf-member
+        image: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com/fojf-namespace/member:latest
         ports:
         - containerPort: 8080
         resources:
@@ -55,7 +55,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fojf-ordersystem-service
+  name: fojf-member-service
   namespace: fojf-namespace
 spec:
   type: ClusterIP
@@ -63,4 +63,4 @@ spec:
     - port: 80
       targetPort: 8080
   selector:
-    app: fojf-ordersystem
+    app: fojf-member
