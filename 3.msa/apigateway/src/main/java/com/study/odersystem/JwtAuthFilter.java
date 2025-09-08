@@ -1,7 +1,7 @@
 package com.study.odersystem;
 
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jwts;
+import java.util.List;
+
 import org.apache.http.HttpHeaders;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,9 +11,10 @@ import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
-import reactor.core.publisher.Mono;
 
-import java.util.List;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import reactor.core.publisher.Mono;
 
 @Component
 public class JwtAuthFilter implements GlobalFilter {
@@ -24,7 +25,8 @@ public class JwtAuthFilter implements GlobalFilter {
             "/member/create",
             "/member/doLogin",
             "/member/refresh-at",
-            "/product/list"
+            "/product/list",
+            "**/health"
     );
 
     private static final List<String> ALLOWED_PATHS_ADMIN = List.of(
